@@ -8,14 +8,14 @@ const Hero = () => {
     <div className="min-h-screen flex items-center justify-center px-4 pt-20 bg-background">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="space-y-8">
-          <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
+          <h1 className="heading-xl text-white">
             Digital Solutions for Modern Businesses
           </h1>
-          <p className="text-lg text-white/80 max-w-xl">
+          <p className="body-lg text-white/80 max-w-xl">
             MGC Studio is a micro software house and marketing agency specializing in websites, e-commerce, custom web-apps and AI workflows.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Button asChild className="px-6 py-6 text-lg bg-accent text-white hover:bg-accent/90 flex items-center gap-2">
+            <Button asChild className="px-6 py-6 text-lg bg-primary text-white hover:bg-primary/90 flex items-center gap-2">
               <Link to="/services">
                 Our Services
                 <ArrowRight className="w-5 h-5 ml-2" />
@@ -29,22 +29,22 @@ const Hero = () => {
           </div>
           <div className="grid grid-cols-3 gap-8 pt-8">
             <div className="flex flex-col items-center md:items-start">
-              <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-accent/20 mb-4">
-                <Code className="w-6 h-6 text-accent" />
+              <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-primary/20 mb-4">
+                <Code className="w-6 h-6 text-primary" />
               </div>
-              <div className="text-white/60">Web Development</div>
+              <div className="text-white/60 font-body">Web Development</div>
             </div>
             <div className="flex flex-col items-center md:items-start">
-              <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-accent/20 mb-4">
-                <PenTool className="w-6 h-6 text-accent" />
+              <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-primary/20 mb-4">
+                <PenTool className="w-6 h-6 text-primary" />
               </div>
-              <div className="text-white/60">Digital Marketing</div>
+              <div className="text-white/60 font-body">Digital Marketing</div>
             </div>
             <div className="flex flex-col items-center md:items-start">
-              <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-accent/20 mb-4">
-                <Database className="w-6 h-6 text-accent" />
+              <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-primary/20 mb-4">
+                <Database className="w-6 h-6 text-primary" />
               </div>
-              <div className="text-white/60">AI Workflows</div>
+              <div className="text-white/60 font-body">AI Workflows</div>
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@ const Hero = () => {
               className="w-full h-auto"
             />
           </div>
-          <div className="absolute -bottom-4 -right-4 w-72 h-72 bg-accent/20 rounded-full blur-3xl"></div>
+          <div className="absolute -bottom-4 -right-4 w-72 h-72 bg-primary/20 rounded-full blur-3xl"></div>
         </div>
       </div>
     </div>

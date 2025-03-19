@@ -43,8 +43,8 @@ const Features = () => {
       <div className="absolute inset-0 bg-accent/5 backdrop-blur-3xl"></div>
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white mb-4">Our Services</h2>
-          <p className="text-xl text-white/60 max-w-2xl mx-auto">
+          <h2 className="heading-lg text-white mb-4">Our Services</h2>
+          <p className="body-lg text-white/60 max-w-2xl mx-auto">
             Comprehensive digital solutions to enhance your business presence and operations
           </p>
         </div>
@@ -55,19 +55,19 @@ const Features = () => {
               key={index} 
               className="p-6 hover-lift glass-effect flex flex-col items-start gap-4 group transition-all duration-300"
             >
-              <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
+              <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                 {service.icon}
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2 text-white">{service.title}</h3>
-                <p className="text-white/60">{service.description}</p>
+                <h3 className="heading-sm mb-2 text-white">{service.title}</h3>
+                <p className="body-md text-white/60">{service.description}</p>
               </div>
             </Card>
           ))}
         </div>
         
         <div className="mt-12 text-center">
-          <Button asChild className="px-6 py-6 text-lg bg-accent text-white hover:bg-accent/90">
+          <Button asChild className="px-6 py-6 text-lg bg-primary text-white hover:bg-primary/90">
             <Link to="/services">
               View All Services
             </Link>

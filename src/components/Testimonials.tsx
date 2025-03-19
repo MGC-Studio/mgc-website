@@ -34,10 +34,10 @@ const Testimonials = () => {
       <div className="absolute inset-0 bg-accent/5 backdrop-blur-3xl"></div>
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white mb-4">
+          <h2 className="heading-lg text-white mb-4">
             Our Recent Projects
           </h2>
-          <p className="text-xl text-white/60 max-w-2xl mx-auto">
+          <p className="body-lg text-white/60 max-w-2xl mx-auto">
             Explore our portfolio of successful digital transformations
           </p>
         </div>
@@ -50,14 +50,14 @@ const Testimonials = () => {
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-2">
-                  <Briefcase className="w-4 h-4 text-accent" />
-                  <span className="text-white/60 text-sm">{project.client}</span>
+                  <Briefcase className="w-4 h-4 text-primary" />
+                  <span className="caption text-white/60">{project.client}</span>
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
-                <p className="text-white/80 mb-4">{project.description}</p>
+                <h3 className="heading-sm text-white mb-2">{project.title}</h3>
+                <p className="body-md text-white/80 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mt-auto">
                   {project.tags.map((tag, tagIndex) => (
-                    <span key={tagIndex} className="text-xs bg-accent/10 text-accent/90 px-2 py-1 rounded-full">
+                    <span key={tagIndex} className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">
                       {tag}
                     </span>
                   ))}
@@ -68,7 +68,7 @@ const Testimonials = () => {
         </div>
         
         <div className="mt-12 text-center">
-          <Button asChild className="px-6 py-6 text-lg bg-accent text-white hover:bg-accent/90">
+          <Button asChild className="px-6 py-6 text-lg bg-primary text-white hover:bg-primary/90">
             <Link to="/projects">
               View All Projects
             </Link>
