@@ -11,7 +11,7 @@ import {
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4 bg-background/95 backdrop-blur-lg">
+    <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4 bg-background/95 backdrop-blur-lg border-b border-primary/10">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center">
           <img 
@@ -23,10 +23,10 @@ const Navbar = () => {
         
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
-          <Link to="/services" className="text-white/80 hover:text-primary transition-colors font-body">Services</Link>
-          <Link to="/projects" className="text-white/80 hover:text-primary transition-colors font-body">Projects</Link>
-          <Link to="/company" className="text-white/80 hover:text-primary transition-colors font-body">Company</Link>
-          <Link to="/contact" className="text-white/80 hover:text-primary transition-colors font-body">Contact</Link>
+          <Link to="/services" className="text-gray-700 hover:text-primary transition-colors font-body">Services</Link>
+          <Link to="/projects" className="text-gray-700 hover:text-primary transition-colors font-body">Projects</Link>
+          <Link to="/company" className="text-gray-700 hover:text-primary transition-colors font-body">Company</Link>
+          <Link to="/contact" className="text-gray-700 hover:text-primary transition-colors font-body">Contact</Link>
           <Button className="bg-primary text-white hover:bg-primary/90">
             Get a Quote
           </Button>
@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className="md:hidden">
           <Sheet>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className="text-white">
+              <Button variant="ghost" size="icon" className="text-gray-800">
                 <Menu className="h-6 w-6" />
                 <span className="sr-only">Toggle menu</span>
               </Button>
@@ -52,8 +52,8 @@ const Navbar = () => {
                         className="h-8"
                       />
                     </Link>
-                    <SheetClose className="rounded-full p-2 hover:bg-white/10">
-                      <X className="h-5 w-5 text-white" />
+                    <SheetClose className="rounded-full p-2 hover:bg-gray-100">
+                      <X className="h-5 w-5 text-gray-800" />
                       <span className="sr-only">Close</span>
                     </SheetClose>
                   </div>
@@ -63,28 +63,28 @@ const Navbar = () => {
                   <ul className="space-y-6">
                     <li>
                       <SheetClose asChild>
-                        <Link to="/services" className="text-xl font-medium text-white/90 hover:text-primary transition-colors block">
+                        <Link to="/services" className="text-xl font-medium text-gray-800 hover:text-primary transition-colors block">
                           Services
                         </Link>
                       </SheetClose>
                     </li>
                     <li>
                       <SheetClose asChild>
-                        <Link to="/projects" className="text-xl font-medium text-white/90 hover:text-primary transition-colors block">
+                        <Link to="/projects" className="text-xl font-medium text-gray-800 hover:text-primary transition-colors block">
                           Projects
                         </Link>
                       </SheetClose>
                     </li>
                     <li>
                       <SheetClose asChild>
-                        <Link to="/company" className="text-xl font-medium text-white/90 hover:text-primary transition-colors block">
+                        <Link to="/company" className="text-xl font-medium text-gray-800 hover:text-primary transition-colors block">
                           Company
                         </Link>
                       </SheetClose>
                     </li>
                     <li>
                       <SheetClose asChild>
-                        <Link to="/contact" className="text-xl font-medium text-white/90 hover:text-primary transition-colors block">
+                        <Link to="/contact" className="text-xl font-medium text-gray-800 hover:text-primary transition-colors block">
                           Contact
                         </Link>
                       </SheetClose>

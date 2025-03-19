@@ -23,15 +23,15 @@ export default {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "#000000",
-        foreground: "#FFFFFF",
+        background: "#FFFFFF",
+        foreground: "#222222",
         primary: {
           DEFAULT: "#65bc97",
           foreground: "#FFFFFF",
         },
         secondary: {
-          DEFAULT: "#FFFFFF",
-          foreground: "#000000",
+          DEFAULT: "#000000",
+          foreground: "#FFFFFF",
         },
         accent: {
           DEFAULT: "#14483f",
@@ -43,7 +43,7 @@ export default {
         },
         card: {
           DEFAULT: "#FFFFFF",
-          foreground: "#000000",
+          foreground: "#222222",
         },
       },
       fontFamily: {
