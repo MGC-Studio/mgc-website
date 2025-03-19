@@ -1,5 +1,7 @@
+
 import { Button } from "@/components/ui/button";
-import { Download } from "lucide-react";
+import { ArrowRight, Code, Database, PenTool } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -7,35 +9,50 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="space-y-8">
           <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight">
-            Responsible Banking Made Easier
+            Digital Solutions for Modern Businesses
           </h1>
           <p className="text-lg text-white/80 max-w-xl">
-            Financial services, including P2P payments, balance check and top-ups - are now available from any mobile app, including all messaging ones.
+            MGC Studio is a micro software house and marketing agency specializing in websites, e-commerce, custom web-apps and AI workflows.
           </p>
-          <Button className="px-8 py-6 text-lg bg-white text-black hover:bg-white/90 flex items-center gap-2">
-            <Download className="w-5 h-5" />
-            Download Application
-          </Button>
+          <div className="flex flex-wrap gap-4">
+            <Button asChild className="px-6 py-6 text-lg bg-accent text-white hover:bg-accent/90 flex items-center gap-2">
+              <Link to="/services">
+                Our Services
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Link>
+            </Button>
+            <Button asChild variant="outline" className="px-6 py-6 text-lg text-white border-white/20 hover:bg-white/10">
+              <Link to="/contact">
+                Contact Us
+              </Link>
+            </Button>
+          </div>
           <div className="grid grid-cols-3 gap-8 pt-8">
-            <div>
-              <div className="text-3xl font-bold text-white">5000+</div>
-              <div className="text-white/60">Active users</div>
+            <div className="flex flex-col items-center md:items-start">
+              <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-accent/20 mb-4">
+                <Code className="w-6 h-6 text-accent" />
+              </div>
+              <div className="text-white/60">Web Development</div>
             </div>
-            <div>
-              <div className="text-3xl font-bold text-white">30.3k</div>
-              <div className="text-white/60">Download</div>
+            <div className="flex flex-col items-center md:items-start">
+              <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-accent/20 mb-4">
+                <PenTool className="w-6 h-6 text-accent" />
+              </div>
+              <div className="text-white/60">Digital Marketing</div>
             </div>
-            <div>
-              <div className="text-3xl font-bold text-white">1200+</div>
-              <div className="text-white/60">Reviews</div>
+            <div className="flex flex-col items-center md:items-start">
+              <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-accent/20 mb-4">
+                <Database className="w-6 h-6 text-accent" />
+              </div>
+              <div className="text-white/60">AI Workflows</div>
             </div>
           </div>
         </div>
         <div className="relative">
           <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1288&auto=format&fit=crop"
-              alt="Banking App"
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
+              alt="Digital Solutions"
               className="w-full h-auto"
             />
           </div>

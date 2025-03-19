@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -25,4 +26,27 @@
 
 .hover-lift {
   @apply transition-transform duration-300 hover:-translate-y-1;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(137, 137, 222, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(137, 137, 222, 0.5);
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
 }
