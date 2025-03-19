@@ -47,8 +47,8 @@ export default {
         },
       },
       fontFamily: {
-        heading: ["Uniwars", "serif"],
-        body: ["Sui-Generis", "sans-serif"],
+        heading: ["Sui-Generis", "sans-serif"],
+        body: ["Lato", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
