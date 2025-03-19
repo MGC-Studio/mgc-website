@@ -1,0 +1,121 @@
+
+{
+  "navigation": {
+    "services": "Services",
+    "projects": "Projects",
+    "company": "Company",
+    "contact": "Contact",
+    "getQuote": "Get a Quote"
+  },
+  "hero": {
+    "title": "Digital Solutions for Modern Businesses",
+    "subtitle": "MGC Studio is a micro software house and marketing agency specializing in websites, e-commerce, custom web-apps and AI workflows.",
+    "buttons": {
+      "services": "Our Services",
+      "contact": "Contact Us"
+    },
+    "services": {
+      "webDev": "Web Development",
+      "digitalMarketing": "Digital Marketing",
+      "aiWorkflows": "AI Workflows"
+    }
+  },
+  "features": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive digital solutions to enhance your business presence and operations",
+    "viewAll": "View All Services",
+    "services": {
+      "websites": {
+        "title": "Website Development",
+        "description": "Professional websites built with WordPress, Webflow, or custom solutions tailored to your needs."
+      },
+      "ecommerce": {
+        "title": "E-commerce Solutions",
+        "description": "Online stores built with WooCommerce, Shopify, and other platforms to boost your sales."
+      },
+      "webapps": {
+        "title": "Custom Web Apps",
+        "description": "Bespoke web applications using React, Next.js, TypeScript, PHP, and Python."
+      },
+      "ai": {
+        "title": "AI Workflows",
+        "description": "Intelligent automation with OpenAI, Claude, N8N, and NocoDB integrations."
+      },
+      "marketing": {
+        "title": "Digital Marketing",
+        "description": "Comprehensive digital marketing strategies to increase your online presence."
+      },
+      "data": {
+        "title": "Data Analysis",
+        "description": "Turning your business data into actionable insights for better decision making."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Our Recent Projects",
+    "subtitle": "Explore our portfolio of successful digital transformations",
+    "viewAll": "View All Projects",
+    "projects": {
+      "construction": {
+        "title": "Construction Company Website",
+        "client": "Pawel's Home Building Services",
+        "description": "Modern responsive website with project gallery and lead generation forms."
+      },
+      "itTraining": {
+        "title": "IT Training Platform",
+        "client": "Szymon's IT Consulting",
+        "description": "Custom web application for IT training and consulting services."
+      },
+      "ecommerce": {
+        "title": "E-commerce Store",
+        "client": "Local Artisan Products",
+        "description": "Online store with inventory management and payment processing."
+      }
+    }
+  },
+  "about": {
+    "title": "About MGC Studio",
+    "subtitle": "MGC Studio is a micro software house and marketing agency with a team of dedicated experts specializing in digital solutions for businesses of all sizes.",
+    "description": "We believe in creating digital solutions that not only look great but also drive results for our clients. Our team combines technical expertise with creative thinking to deliver projects that exceed expectations.",
+    "buttons": {
+      "meetTeam": "Meet The Team",
+      "contactUs": "Contact Us"
+    }
+  },
+  "cta": {
+    "title": "Ready to transform your digital presence?",
+    "subtitle": "Let's discuss how MGC Studio can help achieve your business goals through innovative digital solutions.",
+    "button": "Get Started"
+  },
+  "download": {
+    "title": "Ready to Transform Your Digital Presence?",
+    "subtitle": "Get in touch with our team and let's discuss how we can help you achieve your business goals.",
+    "buttons": {
+      "contact": "Contact Us",
+      "call": "Call for a Quote"
+    }
+  },
+  "footer": {
+    "description": "A micro software house and marketing agency specializing in websites, e-commerce, custom web-apps and AI workflows.",
+    "services": "Services",
+    "servicesList": {
+      "websites": "Websites",
+      "ecommerce": "E-commerce",
+      "webapps": "Custom Web Apps",
+      "ai": "AI Workflows"
+    },
+    "company": "Company",
+    "companyList": {
+      "about": "About Us",
+      "projects": "Our Projects",
+      "team": "Our Team",
+      "contact": "Contact"
+    },
+    "contactUs": "Contact Us",
+    "copyright": "© {{year}} MGC Studio. All rights reserved."
+  },
+  "languageSwitcher": {
+    "polish": "Polish",
+    "english": "English"
+  }
+}

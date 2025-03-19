@@ -10,6 +10,9 @@ import Projects from "./pages/Projects";
 import Company from "./pages/Company";
 import Contact from "./pages/Contact";
 
+// Import i18n configuration
+import "./i18n/i18n";
+
 const queryClient = new QueryClient();
 
 const App = () => (

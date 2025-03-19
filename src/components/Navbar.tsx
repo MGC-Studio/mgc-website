@@ -2,6 +2,8 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
 import { 
   Sheet,
   SheetContent,
@@ -10,6 +12,8 @@ import {
 } from "@/components/ui/sheet";
 
 const Navbar = () => {
+  const { t } = useTranslation();
+  
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4 bg-background/95 backdrop-blur-lg border-b border-primary/10">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -23,17 +27,27 @@ const Navbar = () => {
         
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
-          <Link to="/services" className="text-gray-700 hover:text-primary transition-colors font-body">Services</Link>
-          <Link to="/projects" className="text-gray-700 hover:text-primary transition-colors font-body">Projects</Link>
-          <Link to="/company" className="text-gray-700 hover:text-primary transition-colors font-body">Company</Link>
-          <Link to="/contact" className="text-gray-700 hover:text-primary transition-colors font-body">Contact</Link>
+          <Link to="/services" className="text-gray-700 hover:text-primary transition-colors font-body">
+            {t('navigation.services')}
+          </Link>
+          <Link to="/projects" className="text-gray-700 hover:text-primary transition-colors font-body">
+            {t('navigation.projects')}
+          </Link>
+          <Link to="/company" className="text-gray-700 hover:text-primary transition-colors font-body">
+            {t('navigation.company')}
+          </Link>
+          <Link to="/contact" className="text-gray-700 hover:text-primary transition-colors font-body">
+            {t('navigation.contact')}
+          </Link>
           <Button className="bg-primary text-white hover:bg-primary/90">
-            Get a Quote
+            {t('navigation.getQuote')}
           </Button>
+          <LanguageSwitcher />
         </div>
         
         {/* Mobile Menu */}
-        <div className="md:hidden">
+        <div className="md:hidden flex items-center gap-2">
+          <LanguageSwitcher />
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="text-gray-800">
@@ -64,28 +78,28 @@ const Navbar = () => {
                     <li>
                       <SheetClose asChild>
                         <Link to="/services" className="text-xl font-medium text-gray-800 hover:text-primary transition-colors block">
-                          Services
+                          {t('navigation.services')}
                         </Link>
                       </SheetClose>
                     </li>
                     <li>
                       <SheetClose asChild>
                         <Link to="/projects" className="text-xl font-medium text-gray-800 hover:text-primary transition-colors block">
-                          Projects
+                          {t('navigation.projects')}
                         </Link>
                       </SheetClose>
                     </li>
                     <li>
                       <SheetClose asChild>
                         <Link to="/company" className="text-xl font-medium text-gray-800 hover:text-primary transition-colors block">
-                          Company
+                          {t('navigation.company')}
                         </Link>
                       </SheetClose>
                     </li>
                     <li>
                       <SheetClose asChild>
                         <Link to="/contact" className="text-xl font-medium text-gray-800 hover:text-primary transition-colors block">
-                          Contact
+                          {t('navigation.contact')}
                         </Link>
                       </SheetClose>
                     </li>
@@ -95,7 +109,7 @@ const Navbar = () => {
                 <div className="p-6 border-t border-primary/10">
                   <SheetClose asChild>
                     <Button asChild className="w-full bg-primary text-white hover:bg-primary/90">
-                      <Link to="/contact">Get a Quote</Link>
+                      <Link to="/contact">{t('navigation.getQuote')}</Link>
                     </Button>
                   </SheetClose>
                 </div>

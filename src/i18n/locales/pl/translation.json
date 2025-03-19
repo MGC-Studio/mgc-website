@@ -1,0 +1,121 @@
+
+{
+  "navigation": {
+    "services": "Usługi",
+    "projects": "Projekty",
+    "company": "Firma",
+    "contact": "Kontakt",
+    "getQuote": "Wycena"
+  },
+  "hero": {
+    "title": "Rozwiązania cyfrowe dla nowoczesnych firm",
+    "subtitle": "MGC Studio to mikro software house i agencja marketingowa specjalizująca się w stronach internetowych, e-commerce, niestandardowych aplikacjach webowych i przepływach pracy opartych na AI.",
+    "buttons": {
+      "services": "Nasze usługi",
+      "contact": "Kontakt"
+    },
+    "services": {
+      "webDev": "Tworzenie stron",
+      "digitalMarketing": "Marketing cyfrowy",
+      "aiWorkflows": "Przepływy AI"
+    }
+  },
+  "features": {
+    "title": "Nasze usługi",
+    "subtitle": "Kompleksowe rozwiązania cyfrowe zwiększające obecność i działalność Twojej firmy",
+    "viewAll": "Zobacz wszystkie usługi",
+    "services": {
+      "websites": {
+        "title": "Tworzenie stron internetowych",
+        "description": "Profesjonalne strony internetowe zbudowane za pomocą WordPress, Webflow lub niestandardowych rozwiązań dostosowanych do Twoich potrzeb."
+      },
+      "ecommerce": {
+        "title": "Rozwiązania e-commerce",
+        "description": "Sklepy internetowe zbudowane za pomocą WooCommerce, Shopify i innych platform, aby zwiększyć Twoją sprzedaż."
+      },
+      "webapps": {
+        "title": "Niestandardowe aplikacje webowe",
+        "description": "Dedykowane aplikacje webowe wykorzystujące React, Next.js, TypeScript, PHP i Python."
+      },
+      "ai": {
+        "title": "Przepływy pracy AI",
+        "description": "Inteligentna automatyzacja z integracjami OpenAI, Claude, N8N i NocoDB."
+      },
+      "marketing": {
+        "title": "Marketing cyfrowy",
+        "description": "Kompleksowe strategie marketingu cyfrowego, aby zwiększyć Twoją obecność online."
+      },
+      "data": {
+        "title": "Analiza danych",
+        "description": "Przekształcanie danych biznesowych w praktyczne wnioski dla lepszego podejmowania decyzji."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Nasze ostatnie projekty",
+    "subtitle": "Odkryj nasze portfolio udanych transformacji cyfrowych",
+    "viewAll": "Zobacz wszystkie projekty",
+    "projects": {
+      "construction": {
+        "title": "Strona dla firmy budowlanej",
+        "client": "Usługi budowlane Pawła",
+        "description": "Nowoczesna responsywna strona internetowa z galerią projektów i formularzami generowania leadów."
+      },
+      "itTraining": {
+        "title": "Platforma szkoleń IT",
+        "client": "Doradztwo IT Szymona",
+        "description": "Niestandardowa aplikacja webowa do szkoleń IT i usług doradczych."
+      },
+      "ecommerce": {
+        "title": "Sklep e-commerce",
+        "client": "Lokalne produkty rzemieślnicze",
+        "description": "Sklep internetowy z zarządzaniem zapasami i przetwarzaniem płatności."
+      }
+    }
+  },
+  "about": {
+    "title": "O MGC Studio",
+    "subtitle": "MGC Studio to mikro software house i agencja marketingowa z zespołem dedykowanych ekspertów specjalizujących się w rozwiązaniach cyfrowych dla firm każdej wielkości.",
+    "description": "Wierzymy w tworzenie rozwiązań cyfrowych, które nie tylko dobrze wyglądają, ale również przynoszą rezultaty naszym klientom. Nasz zespół łączy wiedzę techniczną z kreatywnym myśleniem, aby dostarczać projekty, które przewyższają oczekiwania.",
+    "buttons": {
+      "meetTeam": "Poznaj zespół",
+      "contactUs": "Kontakt"
+    }
+  },
+  "cta": {
+    "title": "Gotowy na transformację swojej cyfrowej obecności?",
+    "subtitle": "Porozmawiajmy o tym, jak MGC Studio może pomóc osiągnąć cele biznesowe poprzez innowacyjne rozwiązania cyfrowe.",
+    "button": "Rozpocznij"
+  },
+  "download": {
+    "title": "Gotowy na transformację swojej cyfrowej obecności?",
+    "subtitle": "Skontaktuj się z naszym zespołem i porozmawiajmy o tym, jak możemy pomóc Ci osiągnąć Twoje cele biznesowe.",
+    "buttons": {
+      "contact": "Kontakt",
+      "call": "Zadzwoń po wycenę"
+    }
+  },
+  "footer": {
+    "description": "Mikro software house i agencja marketingowa specjalizująca się w stronach internetowych, e-commerce, niestandardowych aplikacjach webowych i przepływach pracy opartych na AI.",
+    "services": "Usługi",
+    "servicesList": {
+      "websites": "Strony internetowe",
+      "ecommerce": "E-commerce",
+      "webapps": "Aplikacje webowe",
+      "ai": "Przepływy AI"
+    },
+    "company": "Firma",
+    "companyList": {
+      "about": "O nas",
+      "projects": "Nasze projekty",
+      "team": "Nasz zespół",
+      "contact": "Kontakt"
+    },
+    "contactUs": "Kontakt",
+    "copyright": "© {{year}} MGC Studio. Wszelkie prawa zastrzeżone."
+  },
+  "languageSwitcher": {
+    "polish": "Polski",
+    "english": "Angielski"
+  }
+}
