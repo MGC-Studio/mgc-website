@@ -47,8 +47,8 @@ export default {
         },
       },
       fontFamily: {
-        heading: ["Playfair Display", "serif"],
-        body: ["Inter", "sans-serif"],
+        heading: ["Uniwars", "serif"],
+        body: ["Sui-Generis", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
