@@ -107,6 +107,100 @@
       ]
     }
   },
+  "services": {
+    "title": "Nasze usługi",
+    "subtitle": "Kompleksowe rozwiązania cyfrowe, które rozwijają Twój biznes i zwiększają widoczność w sieci.",
+    "services": [
+      {
+        "id": "websites",
+        "icon": "globe",
+        "title": "Tworzenie stron internetowych",
+        "description": "Profesjonalne strony internetowe, które angażują odwiedzających i przekształcają ich w klientów.",
+        "features": [
+          "Strony WordPress na zamówienie",
+          "Projektowanie i rozwój w Webflow",
+          "Responsywny design na wszystkie urządzenia",
+          "Optymalizacja SEO",
+          "Utrzymanie i wsparcie stron",
+          "Optymalizacja wydajności"
+        ],
+        "image": "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=2064&auto=format&fit=crop"
+      },
+      {
+        "id": "ecommerce",
+        "icon": "shopping-bag",
+        "title": "Rozwiązania E-commerce",
+        "description": "Szybkie sklepy internetowe, które zwiększają sprzedaż i zapewniają doskonałe doświadczenia zakupowe.",
+        "features": [
+          "Sklepy WooCommerce",
+          "Ustawienie i personalizacja sklepu Shopify",
+          "Integracja bramek płatności",
+          "Zarządzanie zapasami",
+          "Konfiguracja katalogu produktów",
+          "Mobile first"
+        ],
+        "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2070&auto=format&fit=crop"
+      },
+      {
+        "id": "webapps",
+        "icon": "code",
+        "title": "Aplikacje internetowe na zamówienie",
+        "description": "Aplikacje internetowe dostosowane do specyficznych potrzeb Twojego biznesu.",
+        "features": [
+          "Aplikacje w React i Next.js",
+          "Projektowanie i optymalizacja baz danych",
+          "Rozwój i integracja API",
+          "Wdrażanie i skalowanie w chmurze"
+        ],
+        "image": "https://images.unsplash.com/photo-1581276879432-15e50529f34b?q=80&w=2070&auto=format&fit=crop"
+      },
+      {
+        "id": "ai",
+        "icon": "cpu",
+        "title": "Automatyzacja z użyciem AI",
+        "description": "Inteligentne rozwiązania automatyzacyjne, które usprawniają procesy biznesowe.",
+        "features": [
+          "Integracje OpenAI i Claude",
+          "Automatyzacja workflow z N8N",
+          "Rozwiązania NocoDB",
+          "Tworzenie chatbotów",
+          "Generowanie treści wspomagane AI",
+          "Analiza predykcyjna"
+        ],
+        "image": "https://images.unsplash.com/photo-1573166364266-356ef04ae798?q=80&w=1769&auto=format&fit=crop"
+      },
+      {
+        "id": "marketing",
+        "icon": "pen",
+        "title": "Marketing cyfrowy",
+        "description": "Strategie zwiększające obecność w Internecie i docierające do Twojej grupy docelowej.",
+        "features": [
+          "Strategia marketingowa",
+          "Optymalizacja pod kątem wyszukiwarek (SEO)",
+          "Marketing w mediach społecznościowych",
+          "Marketing treści",
+          "Kampanie e-mailowe",
+          "Analiza i raportowanie"
+        ],
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop"
+      },
+      {
+        "id": "data",
+        "icon": "chart",
+        "title": "Analiza danych",
+        "description": "Przekształć swoje dane w użyteczne informacje, które pomogą podejmować lepsze decyzje biznesowe.",
+        "features": [
+          "Business Intelligence",
+          "Wizualizacja danych",
+          "Analiza zachowań klientów",
+          "Śledzenie sprzedaży i konwersji",
+          "Raportowanie wyników",
+          "Identyfikacja trendów"
+        ],
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
+      }
+    ]
+  },
   "company": {
     "title": "Poznaj MGC Studio",
     "subtitle": "MGC Studio to software house i agencja marketingowa specjalizująca się w stronach internetowych, e-commerce, aplikacjach webowych i procesach opartych na AI.",
