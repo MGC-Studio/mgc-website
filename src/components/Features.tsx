@@ -1,40 +1,41 @@
-
 import { Card } from "@/components/ui/card";
 import { Globe, ShoppingBag, Code, Cpu, PenTool, LineChart } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
+import { useTranslation } from "react-i18next";
 
 const Features = () => {
+  const { t } = useTranslation();
   const services = [
     {
       icon: <Globe className="w-6 h-6 text-primary" />,
-      title: "Website Development",
-      description: "Professional websites built with WordPress, Webflow, or custom solutions tailored to your needs."
+      title: t("features.services.websites.title"),
+      description: t("features.services.websites.description"),
     },
     {
       icon: <ShoppingBag className="w-6 h-6 text-primary" />,
-      title: "E-commerce Solutions",
-      description: "Online stores built with WooCommerce, Shopify, and other platforms to boost your sales."
+      title: t("features.services.ecommerce.title"),
+      description: t("features.services.ecommerce.description"),
     },
     {
       icon: <Code className="w-6 h-6 text-primary" />,
-      title: "Custom Web Apps",
-      description: "Bespoke web applications using React, Next.js, TypeScript, PHP, and Python."
+      title: t("features.services.webapps.title"),
+      description: t("features.services.webapps.description"),
     },
     {
       icon: <Cpu className="w-6 h-6 text-primary" />,
-      title: "AI Workflows",
-      description: "Intelligent automation with OpenAI, Claude, N8N, and NocoDB integrations."
+      title: t("features.services.ai.title"),
+      description: t("features.services.ai.description"),
     },
     {
       icon: <PenTool className="w-6 h-6 text-primary" />,
-      title: "Digital Marketing",
-      description: "Comprehensive digital marketing strategies to increase your online presence."
+      title: t("features.services.marketing.title"),
+      description: t("features.services.marketing.description"),
     },
     {
       icon: <LineChart className="w-6 h-6 text-primary" />,
-      title: "Data Analysis",
-      description: "Turning your business data into actionable insights for better decision making."
+      title: t("features.services.data.title"),
+      description: t("features.services.data.description"),
     }
   ];
 
@@ -43,16 +44,16 @@ const Features = () => {
       <div className="absolute inset-0 bg-primary/5 backdrop-blur-3xl"></div>
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
-          <h2 className="heading-lg text-gray-800 mb-4">Our Services</h2>
+          <h2 className="heading-lg text-gray-800 mb-4">{t("features.title")}</h2>
           <p className="body-lg text-gray-600 max-w-2xl mx-auto">
-            Comprehensive digital solutions to enhance your business presence and operations
+            {t("features.subtitle")}
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
-            <Card 
-              key={index} 
+            <Card
+              key={index}
               className="p-6 hover-lift bg-white shadow-md flex flex-col items-start gap-4 group transition-all duration-300"
             >
               <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
@@ -65,11 +66,11 @@ const Features = () => {
             </Card>
           ))}
         </div>
-        
+
         <div className="mt-12 text-center">
           <Button asChild className="px-6 py-6 text-lg bg-primary text-white hover:bg-primary/90">
             <Link to="/services">
-              View All Services
+              {t("features.viewAll")}
             </Link>
           </Button>
         </div>

@@ -1,4 +1,3 @@
-
 {
   "navigation": {
     "services": "Usługi",
@@ -8,21 +7,21 @@
     "getQuote": "Wycena"
   },
   "hero": {
-    "title": "Rozwiązania cyfrowe dla nowoczesnych firm",
-    "subtitle": "MGC Studio to mikro software house i agencja marketingowa specjalizująca się w stronach internetowych, e-commerce, niestandardowych aplikacjach webowych i przepływach pracy opartych na AI.",
+    "title": "Zbuduj swoją obecność w sieci i przyciągnij więcej klientów.",
+    "subtitle": "MGC Studio to software house i agencja marketingowa specjalizująca się w stronach internetowych, e-commerce, aplikacjach webowych i procesach opartych na AI.",
     "buttons": {
       "services": "Nasze usługi",
       "contact": "Kontakt"
     },
     "services": {
-      "webDev": "Tworzenie stron",
+      "webDev": "Strony Internetowe",
       "digitalMarketing": "Marketing cyfrowy",
-      "aiWorkflows": "Przepływy AI"
+      "aiWorkflows": "Procesy AI"
     }
   },
   "features": {
-    "title": "Nasze usługi",
-    "subtitle": "Kompleksowe rozwiązania cyfrowe zwiększające obecność i działalność Twojej firmy",
+    "title": "Co możemy dla Ciebie zrobić?",
+    "subtitle": "Rozwiązania cyfrowe budujące markę Twojej firmy w internecie, sklepy internetowe oraz automatyzacje oparte o AI",
     "viewAll": "Zobacz wszystkie usługi",
     "services": {
       "websites": {
@@ -34,11 +33,11 @@
         "description": "Sklepy internetowe zbudowane za pomocą WooCommerce, Shopify i innych platform, aby zwiększyć Twoją sprzedaż."
       },
       "webapps": {
-        "title": "Niestandardowe aplikacje webowe",
+        "title": "aplikacje webowe",
         "description": "Dedykowane aplikacje webowe wykorzystujące React, Next.js, TypeScript, PHP i Python."
       },
       "ai": {
-        "title": "Przepływy pracy AI",
+        "title": "Automatyzacja pracy z AI",
         "description": "Inteligentna automatyzacja z integracjami OpenAI, Claude, N8N i NocoDB."
       },
       "marketing": {
@@ -74,12 +73,75 @@
     }
   },
   "about": {
-    "title": "O MGC Studio",
-    "subtitle": "MGC Studio to mikro software house i agencja marketingowa z zespołem dedykowanych ekspertów specjalizujących się w rozwiązaniach cyfrowych dla firm każdej wielkości.",
-    "description": "Wierzymy w tworzenie rozwiązań cyfrowych, które nie tylko dobrze wyglądają, ale również przynoszą rezultaty naszym klientom. Nasz zespół łączy wiedzę techniczną z kreatywnym myśleniem, aby dostarczać projekty, które przewyższają oczekiwania.",
+    "title": "Poznaj nas",
+    "subtitle": "MGC Studio to software house i agencja marketingowa z zespołem dedykowanych ekspertów specjalizujących się w rozwiązaniach cyfrowych dla MŚP.",
+    "description": "Tworzymy rozwiązania, które nie tylko dobrze wyglądają, ale również przynoszą rezultaty naszym klientom. W naszych projektach opieramy się na analityce, dzięki czemu widzisz realne efekty naszej pracy.",
     "buttons": {
       "meetTeam": "Poznaj zespół",
       "contactUs": "Kontakt"
+    },
+    "teamSection": {
+      "title": "Poznaj nasz zespół",
+      "subtitle": "Jesteśmy zgranym zespołem specjalistów. Szybko i skutecznie rozwiązujemy nasze zadania.",
+      "team": [
+        {
+          "name": "Michał Sarzała",
+          "role": "CEO, Software Developer",
+          "image": "/michal_sarzala.jpg",
+          "bio": "Mam ponad 6 lat doświadczenia w programowaniu. Moja specjalność to tłumaczenie złożonych problemów technicznych w zrozumiały dla klienta sposób.",
+          "social": {
+            "linkedin": "https://www.linkedin.com/in/micha%C5%82-sarza%C5%82a-4457051a3/",
+            "email": "michal.sarzala@mgc-studio.com"
+          }
+        },
+        {
+          "name": "Ludwika Białkowska",
+          "role": "Grafik, Motion Designer",
+          "image": "/ludwika_bialkowska.png",
+          "bio": "Tworzę funkcjonalny i użyteczny design. Swoją pracę opieram na wiedzy naukowej. Jestem nauczycielem akademickim na PJATK.",
+          "social": {
+            "linkedin": "https://www.linkedin.com/in/ludwika-bia%C5%82kowska-072246251/",
+            "email": "ludwika.bialkowska@mgc-studio.com"
+          }
+        }
+      ]
+    }
+  },
+  "company": {
+    "title": "Poznaj MGC Studio",
+    "subtitle": "MGC Studio to software house i agencja marketingowa specjalizująca się w stronach internetowych, e-commerce, aplikacjach webowych i procesach opartych na AI.",
+    "about": {
+      "title": "Kim jesteśmy",
+      "subtitle": "Zasady, które kierują naszą pracą i relacjami z klientami",
+      "p1": "MGC Studio pomaga firmom zaistnieć w sieci i rozwijać się online. Jesteśmy małą agencją, co oznacza bezpośredni kontakt i podejście dopasowane do każdego klienta.",
+      "p2": "Zajmujemy się tworzeniem stron internetowych, e-commerce, aplikacji na zamówienie i automatyzacją opartą na AI. Łączymy technologię z praktycznym podejściem, dostarczając rozwiązania, które po prostu działają.",
+      "p3": "Współpracujemy zarówno z małymi, jak i większymi firmami. Nie wciskamy zbędnych rozwiązań – dopasowujemy technologie do realnych potrzeb biznesu."
+    },
+    "values": {
+      "title": "Nasze cechy",
+      "subtitle": "Zasady, które kierują naszą pracą i relacjami z klientami",
+      "values": [
+        {
+          "icon": "clock",
+          "title": "Dostarczamy na czas",
+          "description": "Szanujemy Twój czas i realizujemy projekty w ustalonych terminach, nie rezygnując przy tym z jakości."
+        },
+        {
+          "icon": "zap",
+          "title": "Innowacyjność",
+          "description": "Badamy nowe technologie i podejścia, aby dostarczać nowoczesne rozwiązania."
+        },
+        {
+          "icon": "users",
+          "title": "Współpraca",
+          "description": "Ściśle współpracujemy z naszymi klientami, aby ich wizja była odzwierciedlona w każdym projekcie."
+        },
+        {
+          "icon": "heart",
+          "title": "Pasja",
+          "description": "Pasjonujemy się rozwiązaniami cyfrowymi i wkładamy serce w każdy realizowany projekt."
+        }
+      ]
     }
   },
   "cta": {

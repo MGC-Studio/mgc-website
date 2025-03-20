@@ -1,30 +1,31 @@
-
 import { Card } from "@/components/ui/card";
 import { Briefcase } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
+import { useTranslation } from "react-i18next";
 
 const Testimonials = () => {
+  const { t } = useTranslation();
   const projects = [
     {
       image: "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?q=80&w=2070&auto=format&fit=crop",
-      title: "Construction Company Website",
-      client: "Pawel's Home Building Services",
-      description: "Modern responsive website with project gallery and lead generation forms.",
+      title: t("testimonials.projects.construction.title"),
+      client: t("testimonials.projects.construction.client"),
+      description: t("testimonials.projects.construction.description"),
       tags: ["WordPress", "SEO", "Responsive Design"]
     },
     {
       image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2000&auto=format&fit=crop",
-      title: "IT Training Platform",
-      client: "Szymon's IT Consulting",
-      description: "Custom web application for IT training and consulting services.",
+      title: t("testimonials.projects.itTraining.title"),
+      client: t("testimonials.projects.itTraining.client"),
+      description: t("testimonials.projects.itTraining.description"),
       tags: ["Next.js", "React", "Custom CMS"]
     },
     {
       image: "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?q=80&w=1074&auto=format&fit=crop",
-      title: "E-commerce Store",
-      client: "Local Artisan Products",
-      description: "Online store with inventory management and payment processing.",
+      title: t("testimonials.projects.ecommerce.title"),
+      client: t("testimonials.projects.ecommerce.client"),
+      description: t("testimonials.projects.ecommerce.description"),
       tags: ["Shopify", "WooCommerce", "Payment Integration"]
     }
   ];
@@ -35,13 +36,13 @@ const Testimonials = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="heading-lg text-gray-800 mb-4">
-            Our Recent Projects
+            {t("testimonials.title")}
           </h2>
           <p className="body-lg text-gray-600 max-w-2xl mx-auto">
-            Explore our portfolio of successful digital transformations
+            {t("testimonials.subtitle")}
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <Card key={index} className="overflow-hidden hover-lift bg-white shadow-md">
@@ -66,11 +67,11 @@ const Testimonials = () => {
             </Card>
           ))}
         </div>
-        
+
         <div className="mt-12 text-center">
           <Button asChild className="px-6 py-6 text-lg bg-primary text-white hover:bg-primary/90">
             <Link to="/projects">
-              View All Projects
+              {t("testimonials.viewAll")}
             </Link>
           </Button>
         </div>
