@@ -238,6 +238,45 @@
       ]
     }
   },
+  "contact": {
+    "title": "Skontaktuj się z nami",
+    "subtile": "Chcesz zrobić z nami projekt lub dowiedzieć się więcej o naszych usługach? Chętnie Ci pomożemy.",
+    "office": {
+      "title": "Biuro",
+      "addressLine": "plac Europejski 1 (Warsaw Spire), 00-844 Warszawa, Poland"
+    },
+    "email": {
+      "title": "Napisz do nas",
+      "email": "michal.sarzala@mgc-studio.com"
+    },
+    "call": {
+      "title": "Zadzwoń do nas",
+      "phone": "+48 519 498 845",
+      "days": "Poniedziałek - Piątek",
+      "hours": "8:00 - 18:00"
+    },
+    "form": {
+      "title": "Napisz do nas",
+      "subtitle": "Odpowiemy w ciągu 24h",
+      "name": {
+        "label": "Imię",
+        "placeholder": "Jan Kowalski"
+      },
+      "email": {
+        "label": "Adres email",
+        "placeholder": "jan.kowalski@gmail.com"
+      },
+      "subject": {
+        "label": "Temat",
+        "placeholder": "Strona internetowa dla..."
+      },
+      "message": {
+        "label": "Wiadomość",
+        "placeholder": "Potrzebuję projektu..."
+      },
+      "submit": "Wyślij wiadomość"
+    }
+  },
   "cta": {
     "title": "Gotowy na transformację swojej cyfrowej obecności?",
     "subtitle": "Porozmawiajmy o tym, jak MGC Studio może pomóc osiągnąć cele biznesowe poprzez innowacyjne rozwiązania cyfrowe.",
