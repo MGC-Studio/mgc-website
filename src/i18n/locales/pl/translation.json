@@ -249,10 +249,10 @@
   },
   "contact": {
     "title": "Skontaktuj się z nami",
-    "subtile": "Chcesz zrobić z nami projekt lub dowiedzieć się więcej o naszych usługach? Chętnie Ci pomożemy.",
+    "subtitle": "Chcesz zrobić z nami projekt lub dowiedzieć się więcej o naszych usługach? Chętnie Ci pomożemy.",
     "office": {
       "title": "Biuro",
-      "addressLine": "plac Europejski 1 (Warsaw Spire), 00-844 Warszawa, Poland"
+      "addressLine": "Warszawa, Polska"
     },
     "email": {
       "title": "Napisz do nas",
@@ -300,16 +300,16 @@
     }
   },
   "footer": {
-    "description": "Mikro software house i agencja marketingowa specjalizująca się w stronach internetowych, e-commerce, niestandardowych aplikacjach webowych i przepływach pracy opartych na AI.",
+    "description": "MGC Studio to software house i agencja marketingowa specjalizująca się w stronach internetowych, e-commerce, aplikacjach webowych i procesach opartych na AI.",
     "services": "Usługi",
     "servicesList": {
       "websites": "Strony internetowe",
       "ecommerce": "E-commerce",
       "webapps": "Aplikacje webowe",
-      "ai": "Przepływy AI"
+      "ai": "automatyzacje AI"
     },
-    "company": "Firma",
-    "companyList": {
+    "nav": "Nawigacja",
+    "navList": {
       "about": "O nas",
       "projects": "Nasze projekty",
       "team": "Nasz zespół",

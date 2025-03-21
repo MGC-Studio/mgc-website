@@ -1,8 +1,7 @@
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Card } from "@/components/ui/card";
-import { Briefcase, ArrowRight, Calendar, User } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import ProjectCard from "@/components/projects/ProjectCard";
@@ -10,7 +9,7 @@ import ProjectCard from "@/components/projects/ProjectCard";
 const Projects = () => {
   const { t } = useTranslation();
 
-  //KSZRD, WealthyFrame, SlyVip, MatteoBrunnetii, Motorise
+  //KSZRD, WealthyFrame, SlyVip, MatteoBrunnetii, Motorise, CapsuleGym, KrystianFolman
 
   const projects = [
     {
@@ -125,7 +124,6 @@ const Projects = () => {
           </Button>
         </div>
       </div>
-
       <Footer />
     </div>
   );

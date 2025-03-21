@@ -50,7 +50,7 @@ const Index = () => {
                     {t("about.buttons.meetTeam")}
                   </Link>
                 </Button>
-                <Button asChild variant="outline" className=" border-white/20 hover:bg-primary/10">
+                <Button asChild variant="outline" className=" border-white/20 hover:bg-primary/80">
                   <Link to="/contact">
                     <Mail className="w-5 h-5 mr-2" />
                     {t("about.buttons.contactUs")}
@@ -74,7 +74,7 @@ const Index = () => {
           <p className="text-xl mb-8">
             {t('cta.subtitle')}
           </p>
-          <Button asChild className="px-8 py-6 text-lg bg-primary hover:bg-white/90">
+          <Button asChild className="px-8 py-6 text-lg bg-primary hover:bg-primary/80">
             <Link to="/contact">
               {t('cta.button')}
               <ArrowRight className="ml-2 w-5 h-5" />

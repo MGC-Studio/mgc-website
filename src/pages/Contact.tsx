@@ -41,7 +41,7 @@ const Contact = () => {
                 <Mail className="w-6 h-6 text-accent" />
               </div>
               <h3 className="text-xl font-semibold mb-2">{t("contact.email.title")}</h3>
-              <p>{t("contact.email.email")}</p>
+              <p><a href={`mailto:${t("contact.email.email")}`} className="underline">{t("contact.email.email")}</a></p>
             </Card>
 
             <Card className="p-6 hover-lift glass-effect flex flex-col items-center text-center">
@@ -49,7 +49,7 @@ const Contact = () => {
                 <Phone className="w-6 h-6 text-accent" />
               </div>
               <h3 className="text-xl font-semibold mb-2">{t("contact.call.title")}</h3>
-              <p>{t("contact.call.phone")}</p>
+              <p><a href={`tel:${t("contact.call.phone")}`} className="underline">{t("contact.call.phone")}</a></p>
               <p>{t("contact.call.days")}</p>
               <p>{t("contact.call.hours")}</p>
             </Card>
