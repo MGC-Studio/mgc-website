@@ -201,6 +201,15 @@
       }
     ]
   },
+  "projects": {
+    "title": "Nasze projekty",
+    "subtitle": "Zobacz nasze portfolio udanych transformacji cyfrowych i historie sukcesów naszych klientów.",
+    "cta": {
+      "title": "Gotowy, aby rozpocząć swój projekt?",
+      "subtitle": "Porozmawiajmy o tym, jak MGC Studio może pomóc w realizacji Twojej wizji.",
+      "link": "Skontaktuj się z nami"
+    }
+  },
   "company": {
     "title": "Poznaj MGC Studio",
     "subtitle": "MGC Studio to software house i agencja marketingowa specjalizująca się w stronach internetowych, e-commerce, aplikacjach webowych i procesach opartych na AI.",

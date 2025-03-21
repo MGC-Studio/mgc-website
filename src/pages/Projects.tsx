@@ -4,8 +4,14 @@ import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
 import { Briefcase, ArrowRight, Calendar, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
+import ProjectCard from "@/components/projects/ProjectCard";
 
 const Projects = () => {
+  const { t } = useTranslation();
+
+  //KSZRD, WealthyFrame, SlyVip, MatteoBrunnetii, Motorise
+
   const projects = [
     {
       image: "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?q=80&w=2070&auto=format&fit=crop",
@@ -78,82 +84,48 @@ const Projects = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      
+
       {/* Hero Section */}
       <div className="pt-32 pb-20 px-4 bg-background relative overflow-hidden">
         <div className="absolute inset-0 bg-accent/5 backdrop-blur-3xl"></div>
         <div className="max-w-7xl mx-auto relative z-10 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">Our Projects</h1>
-          <p className="text-xl text-white/60 max-w-3xl mx-auto">
-            Explore our portfolio of successful digital transformations and client success stories
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">{t("projects.title")}</h1>
+          <p className="text-xl max-w-3xl mx-auto">
+            {t("projects.subtitle")}
           </p>
         </div>
       </div>
-      
+
       {/* Projects Grid */}
       <div className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
-              <Card key={index} className="overflow-hidden hover-lift glass-effect">
-                <div className="h-48 overflow-hidden">
-                  <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
-                </div>
-                <div className="p-6">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Briefcase className="w-4 h-4 text-accent" />
-                    <span className="text-white/60 text-sm">{project.client}</span>
-                  </div>
-                  <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
-                  <div className="flex items-center gap-4 my-3 text-sm text-white/60">
-                    <div className="flex items-center gap-1">
-                      <Calendar className="w-4 h-4" />
-                      <span>{project.date}</span>
-                    </div>
-                  </div>
-                  <p className="text-white/80 mb-4 line-clamp-3">{project.description}</p>
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {project.tags.slice(0, 3).map((tag, tagIndex) => (
-                      <span key={tagIndex} className="text-xs bg-accent/10 text-accent/90 px-2 py-1 rounded-full">
-                        {tag}
-                      </span>
-                    ))}
-                    {project.tags.length > 3 && (
-                      <span className="text-xs bg-accent/10 text-accent/90 px-2 py-1 rounded-full">
-                        +{project.tags.length - 3}
-                      </span>
-                    )}
-                  </div>
-                  <Button variant="outline" className="w-full text-white border-white/20 hover:bg-white/10 flex items-center justify-center gap-2">
-                    View Case Study
-                    <ArrowRight className="w-4 h-4" />
-                  </Button>
-                </div>
-              </Card>
+              <ProjectCard key={index} project={project} />
             ))}
           </div>
         </div>
       </div>
-      
+
       {/* CTA Section */}
       <div className="py-20 px-4 bg-background relative overflow-hidden">
         <div className="absolute inset-0 bg-accent/10 backdrop-blur-3xl"></div>
         <div className="max-w-3xl mx-auto text-center relative z-10">
-          <h2 className="text-4xl font-bold text-white mb-6">
-            Ready to start your project?
+          <h2 className="text-4xl font-bold mb-6">
+            {t("projects.cta.title")}
           </h2>
-          <p className="text-xl text-white/80 mb-8">
-            Let's discuss how MGC Studio can help bring your vision to life with our expertise.
+          <p className="text-xl mb-8">
+            {t("projects.cta.subtitle")}
           </p>
-          <Button asChild className="px-8 py-6 text-lg bg-white text-background hover:bg-white/90">
+          <Button asChild className="px-8 py-6 text-lg bg-primary hover:bg-primary/90">
             <a href="/contact">
-              Get in Touch
+              {t("projects.cta.link")}
               <ArrowRight className="ml-2 w-5 h-5" />
             </a>
           </Button>
         </div>
       </div>
-      
+
       <Footer />
     </div>
   );
