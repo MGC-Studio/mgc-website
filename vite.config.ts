@@ -15,8 +15,8 @@ export default defineConfig(({ mode }) => ({
     react(),
     ssr({
       prerender: {
-        // List all routes we want to pre-render
-        routes: ['/', '/services', '/projects', '/company', '/contact']
+        // Use urlsToPrerender instead of routes
+        urlsToPrerender: ['/', '/services', '/projects', '/company', '/contact']
       }
     }),
     mode === 'development' && componentTagger(),
